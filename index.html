@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Basic Banking System</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style>
+		a:hover
+		{
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="hero">
+		
+		<div class="navbar">
+			<button type="button" class="btn btn-outline-primary float-end" style="margin-left: -7%;">Register</button>
+			<button type="button" class="btn btn-outline-success float-end">Login</button>
+		</div>
+		<div class="container" style="width: 50%;">
+			<div class="info">
+				<h1>TRANSFER MONEY</h1>
+				<h3>For Free</h3>
+				<br>
+				<p>Re-imagining the way we move money. Send and receive money instantly to anyone you like. The faster, cheaper and safer way to transfer money.</p>
+				<br>
+
+				<div class="pic_container">
+					<img src="https://images.vexels.com/media/users/3/140527/isolated/preview/449b95d58f554656b159dd3ca21ab123-home-round-icon-by-vexels.png" class="home">
+
+					<img src="https://www.freeiconspng.com/uploads/customers-icon-12.png" class="view_all">
+
+					<img src="https://img2.pngio.com/cash-in-envelope-dollar-pack-donation-salary-send-money-icon-money-envelope-png-512_512.png" class="transfer_money">
+
+					<br>
+
+					<p id="homie"><a href="index.html" style="text-decoration: none;color: black;">Home</a></p>
+
+					<p id="view_cust"><a href="customer.php" style="text-decoration: none;color: black;">View Customers</a></p>
+
+					<p id="trans_mon"><a href="transfer.php" style="text-decoration: none;color: black;">Transfer Money</a></p>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="slider">
+			<img src="https://www.pngarts.com/files/2/Left-Arrow-PNG-Download-Image.png" id="prev">
+			<div class="preview">
+				<img src="images/blur.jpg" class="active thumbnail">
+				<img src="images/blur.jpg" class="thumbnail">
+				<img src="images/blur.jpg" class="thumbnail">
+				<img src="images/blur.jpg" class="thumbnail">
+				<img src="images/blur.jpg" class="thumbnail">
+			</div>
+			<img src="https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png" id="next">
+		</div> -->
+
+	</div>
+
+	<script>
+		
+		// var prev=document.getElementbyId("prev");
+		// var next=document.getElementbyId("next");
+		// var thumbnail=document.getElementsbyClassName("thumbnail");
+		// var hero=document.getElementbyId("hero");
+
+		// var bgimg = new Array(
+
+		//  	"images/banner.jpg",
+		//  	"images/bg1.jpg",
+		//  	"images/bg2.jpg",
+		//  	"images/bg3.jpg",
+		//  	"images/blur.jpg",
+
+		//  	);
+		//  	let i=0;
+
+		//  	next.onclick = function(){
+			 		
+		// 	 		if(i<4){
+			 				
+		// 	 				hero.style.backgroundImage = 'url("'+bgimg[i+1]+'")';
+		// 	 				i++;
+		// 	 			}
+		//  	}
+
+		//  	prev.onclick = function(){
+			 		
+		// 	 		if(i>0){
+			 				
+		// 	 				hero.style.backgroundImage = 'url("'+bgimg[i-1]+'")';
+		// 	 				i--;
+		// 	 			}
+		//  	}
+
+
+		var images = [
+  						"images/pic8.jpg",
+  						"images/pic2.jpg",
+  						"images/pic5.jpg",
+  						"images/pic7.jpg",
+  						"images/pic6.jpg",
+  						"images/pic1.jpg",
+  						"images/pic3.jpg"
+					]
+
+		var imageHead = document.getElementById("hero");
+		var i = 0;
+
+		setInterval(function() {
+      	imageHead.style.backgroundImage = "url(" + images[i] + ")";
+      		i = i + 1;
+      		if (i == images.length) {
+      			i =  0;
+      		}
+		}, 5000);
+
+	</script>
+
+</body>
+</html>

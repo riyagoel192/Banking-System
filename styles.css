@@ -1,0 +1,102 @@
+.col-sm-12
+{
+	 height: 600px;
+	 /*border: 1px solid green;*/
+}
+
+img {
+    position: absolute;
+    top: 0;
+    height: 550px;
+    left: 0;
+    width:100%;
+}
+
+.col-sm-2
+{
+	/*border: 2px solid green;*/
+	height: 110px;
+}
+
+.home
+{
+	width: 40%;
+	height: 70%;
+	margin-left: 28%;
+}
+
+.view_all
+{
+	width: 40%;
+	height: 70%;
+	margin-left: 28%;
+}
+
+.transfer_money
+{
+	width: 40%;
+	height: 70%;
+	margin-left: 28%;
+}
+
+#homie
+{
+	font-size: 18px;
+	/*margin: 37% 30%;*/
+	font-weight: bold;
+}
+
+#view_cust
+{
+	font-size: 18px;
+	/*margin: 37% 10%;*/
+	font-weight: bold;
+}
+
+#trans_mon
+{
+	font-size: 18px;
+	/*margin: 37% 13%;*/
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+.table-hover
+{
+	font-size: 15px;
+	width: 80%;
+	margin: 6% 10%;
+	border: 1px solid black;
+}
+
+h3
+{
+	margin-top: 2%;
+}
+
+.btn-success
+{
+	margin:5%;
+	font-size: 15px;
+	margin-left: 40%;
+}
+
+.btn-light
+{
+	margin:5%;
+	font-size: 12px;
+	border-radius: 90%;
+	margin-left: -14.01%;
+}
+
+.btn-primary
+{
+	margin:5%;
+	font-size: 15px;
+	margin-left: -4%;
+}

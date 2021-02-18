@@ -1,0 +1,149 @@
+*
+{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#hero
+{
+	width: 100%;
+	height: 100vh;
+/*	background-image: url('https://previews.123rf.com/images/kfifa/kfifa1908/kfifa190800083/131871715-online-money-payment-app-electronic-banking-mobile-digital-wallet-flat-smartphone-design-with-nfc-cr.jpg');
+*/	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.navbar
+{
+	float: right;
+}
+
+.container
+{
+	height: 100vh;
+	background: rgba(86,86,86,0.3);
+	backdrop-filter: blur(10px);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.info
+{
+	width: 550px;
+	color: black;
+	position: absolute;
+	right: 6%;
+	top: 50%;
+	transform: translateY(-100%);
+}
+
+.info h1
+{
+	font-size: 60px;
+}
+
+.info p
+{
+	font-size: 17px;
+	margin: 20px 0;
+	color: black;
+}
+
+.pic_container
+{
+	height: 150px;
+	position: absolute;
+	width: 100%;
+	left: -25%;
+	top: 120%;
+}
+
+.home
+{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+}
+
+.view_all
+{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	margin: 0% 46%;
+}
+
+.transfer_money
+{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	margin: 0% 95%;
+}
+
+#homie
+{
+	font-size: 18px;
+	/*margin: 37% 30%;*/
+	font-weight: bold;
+	position: absolute;
+	margin: 30% 10%;
+}
+
+#view_cust
+{
+	font-size: 18px;
+	/*margin: 37% 30%;*/
+	font-weight: bold;
+	position: absolute;
+	margin: 30% 55%;
+}
+
+#trans_mon
+{
+	font-size: 18px;
+	/*margin: 37% 30%;*/
+	font-weight: bold;
+	position: absolute;
+	margin: 30% 105%;
+}
+
+.slider
+{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+}
+
+#prev, #next
+{
+	width: 20px;
+	cursor: pointer;
+}
+
+.preview
+{
+	display: flex;
+	align-items: center;
+	margin: 0 60px;
+}
+
+.preview img
+{
+	width: 60px;
+	margin: 0 10px;
+	opacity: 0.4;
+}
+
+.preview .active
+{
+	display: block;
+	border: 3px solid black;
+	width: 100px;
+	opacity: 1;
+}
