@@ -1,5 +1,7 @@
 # Banking-System
 
+The project is hosted on Github pages: https://riyagoel192.github.io/Banking-System/
+
 ![image](https://user-images.githubusercontent.com/55539590/108398160-b844fd80-723e-11eb-8d06-000fab179c9e.png)
 
 ![image](https://user-images.githubusercontent.com/55539590/108398227-cb57cd80-723e-11eb-957a-8dd8051bef4c.png)
